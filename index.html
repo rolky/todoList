@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="title-bar">
+      <a href="/" class="logo">GETSAMTDAN</a>
+    </div>
+    <h1>To-Do List</h1>
+    <div class="input-card">
+      <input type="text" id="taskInput" placeholder="Enter a task..." />
+      <button id="addTaskBtn">Add Task</button>
+    </div>
+
+    <div class="container">
+      <div class="card" id="todo">
+        <h2>Todo</h2>
+        <ul id="todoList">
+          <!-- Todo tasks will be dynamically added here -->
+        </ul>
+      </div>
+      <div class="card" id="inProgress">
+        <h2>In Progress</h2>
+        <ul id="inProgressList">
+          <!-- In-progress tasks will be dynamically added here -->
+        </ul>
+      </div>
+      <div class="card" id="done">
+        <h2>Done</h2>
+        <ul id="doneList">
+          <!-- Completed tasks will be dynamically added here -->
+        </ul>
+      </div>
+    </div>
+
+    <script src="todoList.js"></script>
+  </body>
+</html>
